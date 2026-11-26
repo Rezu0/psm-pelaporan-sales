@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@source "../views/**/*.blade.php";
+@source "../js/**/*.js";
+
+[x-cloak] { display: none !important; }
